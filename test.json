@@ -1,0 +1,45 @@
+{
+  "@graph" : [ {
+    "@id" : "_:t5920324",
+    "@type" : "http://purl.org/lobid/lv#SeriesRelation",
+    "numbering" : "1",
+    "series" : "http://lobid.org/resource/HT002125118"
+  }, {
+    "@id" : "http://d-nb.info/gnd/118580604",
+    "preferredName" : "Melville, Herman",
+    "preferredNameForThePerson" : "Melville, Herman"
+  }, {
+    "@id" : "http://d-nb.info/gnd/138594104",
+    "preferredName" : "Tanselle, G. Thomas",
+    "preferredNameForThePerson" : "Tanselle, G. Thomas"
+  }, {
+    "@id" : "http://lobid.org/resource/HT004796635",
+    "@type" : [ "http://purl.org/ontology/bibo/Book", "http://purl.org/dc/terms/BibliographicResource" ],
+    "extent" : "1333 S.",
+    "publisher" : "Literary Classics of the United States",
+    "creator" : "http://d-nb.info/gnd/118580604",
+    "isPartOf" : "http://lobid.org/resource/HT002125118",
+    "issued" : "1982",
+    "language" : "http://id.loc.gov/vocabulary/iso639-2/eng",
+    "medium" : "http://rdvocab.info/termList/RDAproductionMethod/1010",
+    "title" : "Typee",
+    "contributorLabel" : [ "Melville, Hermann", "Tanselle, George T.", "Melvill, German", "Melvill, Hermann", "Melvil, Herman", "Melwille, Hermann", "Tanselle, G. Thomas", "Melville, Herman", "Tarnmoor, Salvator R.", "Tanselle, G. T.", "Tanselle, George Thomas" ],
+    "hbzId" : "HT004796635",
+    "inSeries" : "_:t5920324",
+    "edition" : "5. pr",
+    "editor" : "http://d-nb.info/gnd/138594104",
+    "isbn10" : [ "0940450003", "9780940450004" ],
+    "volume" : "1",
+    "exemplar" : [ "http://lobid.org/item/HT004796635:DE-61:angr50201.l697", "http://lobid.org/item/HT004796635:DE-61-31:angr50201.l697" ],
+    "otherTitleInformation" : "a peep at Polynesian life",
+    "placeOfPublication" : "New York, NY",
+    "publicationStatement" : "New York, NY; Literary Classics of the United States; 1982",
+    "sameAs" : "http://hub.culturegraph.org/resource/HBZ-HT004796635",
+    "describedBy" : "http://lobid.org/resource/HT004796635/about",
+    "isPrimaryTopicOf" : "http://193.30.112.134/F/?func=find-c&ccl_term=IDN%3DHT004796635"
+  } ],
+  "@id" : "http://lobid.org/resource/HT004796635/about",
+  "dateCreated" : "19930724",
+  "@context" : "http://lobid.org/context/lobid-resources.json",
+  "primaryTopic" : "http://lobid.org/resource/HT004796635"
+}
